@@ -8,13 +8,9 @@ package adrills;
  *
  * @author domingo flores
  */
-public class ADrills {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-    }
+public class ArrayQuestions extends Questions {
+    public static class UnansweredQuestionException 
+            extends UnsupportedOperationException {}
     
     /**
      * Question #A.1)
@@ -27,7 +23,7 @@ public class ADrills {
      */
     public static int getElement101( int[] array, int n) {
         //TODO delete the line below and write your solution.
-        throw new UnsupportedOperationException();
+        throw new UnansweredQuestionException();
     }
     
     /**
@@ -41,7 +37,7 @@ public class ADrills {
      */
     public static int getElement102( int[] array, int n) {
         //TODO delete the line below and write your solution.
-        throw new UnsupportedOperationException();
+        throw new UnansweredQuestionException();
     }
     
     /**
@@ -55,7 +51,7 @@ public class ADrills {
      */
     public static int getElement103( int[] array, int n) {
         //TODO delete the line below and write your solution.
-        throw new UnsupportedOperationException();
+        throw new UnansweredQuestionException();
     }
     
     /**
@@ -69,6 +65,22 @@ public class ADrills {
      * @return the new array with the even elements.
      */
     public static int[] changeArray101( int[] array) {
+        //TODO delete the line below and write your solution.
+        throw new UnsupportedOperationException( 
+                "Please answer the question." );
+    }
+    
+    /**
+     * Question #B.2)
+     * The method returns a new array with the odd elements. For example, for
+     *  the array { 3, 5, 7 } the return is { 3, 7 } and for { 6, 7, 2, 3 } the 
+     *  return is { 6, 3 }.
+     * 
+     * @param array is the array to look through.
+     * 
+     * @return the new array with the odd elements.
+     */
+    public static int[] changeArray102( int[] array) {
         //TODO delete the line below and write your solution.
         throw new UnsupportedOperationException();
     }
